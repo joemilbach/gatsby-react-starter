@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="http://joemilbach.com/images/icn/icon-64x64.png" width="64">
+  <img src="http://joemilbach.com/images/icn/icon-64x64.png" width="64"><br/>
+  <strong>Custom Gatsby starter</strong>
 </p>
-**Custom Gatsby starter**
 
 ## Quick start
 
