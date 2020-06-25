@@ -1,34 +1,24 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Container from "react-bootstrap/Container"
+import Nav from "react-bootstrap/Nav"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+  <Container as="header" fluid id="site-nav" role="banner">
+    <div className="d-flex align-items-center">
+      <Link to="/" className="d-flex flex-shrink-1 flex-grow-0">
+        <img className="img-fluid" src="https://via.placeholder.com/145x75/007bff/fff.png?text=Logo" alt="logo" />
+      </Link>
+
+      <Nav as="nav" className="flex-grow-1" role="navigation">
+        <Link to="/" className="home nav-link">Home</Link>
+        <Link to="/about/" className="about nav-link">About</Link>
+        <Link to="/services/" className="services nav-link">Services</Link>
+        <Link to="/contact/" className="contact nav-link">Contact</Link>
+      </Nav>
     </div>
-  </header>
+  </Container>
 )
 
 Header.propTypes = {
