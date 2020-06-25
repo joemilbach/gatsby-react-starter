@@ -3,6 +3,8 @@
   <strong>Custom Gatsby starter</strong>
 </p>
 
+Starter template based on [Gatsby's default starter](https://github.com/gatsbyjs/gatsby-starter-default). Updated to include [React Bootstrap](https://react-bootstrap.github.io/) & [React Font Awesome](react-fontawesome).
+
 ## Quick start
 
 1.  **Create a Gatsby site.**
@@ -10,7 +12,7 @@
     Gatsby CLI to create a new site.
 
     ```shell
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    gatsby new my-default-starter https://github.com/joemilbach/gatsby-react-starter
     ```
 
 1.  **Start developing.**
