@@ -1,7 +1,7 @@
 <p align="center">
   <img src="http://joemilbach.com/images/icn/icon-64x64.png" width="64"><br/>
-  <strong>Custom Gatsby starter</strong>
 </p>
+<h1>Custom Gatsby starter</h1>
 
 Starter template based on [Gatsby's default starter](https://github.com/gatsbyjs/gatsby-starter-default). Updated to include [React Bootstrap](https://react-bootstrap.github.io/) & [React Font Awesome](react-fontawesome).
 
